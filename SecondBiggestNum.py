@@ -4,17 +4,16 @@ c = int(input())
 if(a>b):
     if(a>c):
         if(b>c):
-            print(b)
+            print(b,"is Second Biggest")
         else:
-            print(c)
+            print(c,"is Second Biggest")
 if(b>c):
     if(a>c):
-        print(a)
+        print(a,"is Second Biggest")
     else:
-        print(c)
+        print(c,"is Second Biggest")
 else:
     if(a>b):
-        print(a)
+        print(a,"is Second Biggest")
     else:
-        print(b)
-        
+        print(b,"is Second Biggest")
